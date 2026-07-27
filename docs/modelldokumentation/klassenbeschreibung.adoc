@@ -5,7 +5,7 @@ Das Topic `+Stammdaten+` umfasst alle statischen Werte. Darunter fallen z.B. die
 Die Stammdaten werden durch die zuständige Stelle vorgegeben. Bei Bundesthemen ist dies das für die Modellierung zuständige Bundesamt. Bei kantonalen Themen das zuständige kantonale Amt. Die Stammdaten von Bundesthemen können auf der Stufe Kanton erweitert werden. Die kantonalen Erweiterungen werden bei der Überführung ins Bundesmodell den entsprechenden Bundestypen zugeordnet. Bei Bedarf werden die Stammdaten durch die Abteilung Geoinformation nachgeführt und im https://github.com/ch-sz-geo/<Themennummer>/tree/main/data[data-Verzeichnis] des jeweiligen Themas veröffentlicht.
 
 ==== Klasse `+Katalogeintrag+`
-Die Klasse `+Katalogeintrag+` enthält die allgemeinen, für alle Kataloge gemeinsamen Attribute. Die Klasse selber ist abstrakt: Es gibt keine Objekte `+Katalogeintrag+`, sondern nur Objekte von den spezialisierten Klassen.
+Die Klasse `+Katalogeintrag+` enthält die allgemeinen, für alle Kataloge gemeinsamen Attribute. Die Klasse selbst ist abstrakt: Es gibt keine Objekte `+Katalogeintrag+`, sondern nur Objekte von den spezialisierten Klassen.
 
 [cols="10%, 60%, 20%, 10%",options="header"]
 |===
@@ -220,7 +220,7 @@ m| Geometrie
 |===
 
 ==== Klasse `+Basisgeometrie+`
-Die Klasse `+Basisgeometrie+` führt die allgemeinen Informationen zur Geometrie. Sie ist eine abstrakte Klasse und führt selbrer keine Objekte.
+Die Klasse `+Basisgeometrie+` führt alle relevanten Mittelwerte der in der Klimaanalyse modellierten Paramterer. Die Berechnung erfogt aus den Rasterdaten. Die Klasse ist abstrakt und führt selbrer keine Objekte.
 
 [cols=4*,options="header"]
 |===
@@ -297,7 +297,7 @@ m|Name
 |===
 
 ==== Klasse `+Bewertungsraum+`
-Die Klasse `+Bewertungsraum+` führt die allgemeinen Informationen zur Bewertung. Sie ist eine abstrakte Klasse und führt selbrer keine Objekte. Sie ist eine Spezialisierung der Klasse `+Basisgeometrie+`.
+Die Klasse `+Bewertungsraum+` führt die allgemeinen Informationen zur Bewertung. Sie ist eine abstrakte Klasse und führt selbst keine Objekte. Sie ist eine Spezialisierung der Klasse `+Basisgeometrie+`. Die Bewertung erfolgt auf den in der Klasse `+Basisgeometrie+` berechneten Mittelwerten zum Tag und der Nacht. Im Planungshinweis werden diese beiden Mittelwerte zusätzlich miteinander kombiniert.
 
 [cols=4*,options="header"]
 |===
