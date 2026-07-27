@@ -4,12 +4,13 @@
 *Erstellung*
 [cols="1, 3"]
 |===
-| Erstelldatum | 2024-01-01
+| Erstelldatum | 2026-07-27
 | letzte Änderung | {docdate}
-| Themen-Nummer | Annn
+| Themen-Nummer | A250
 | ID nach kGeoiV | --- 
-| Beteiligte | Vorname Nachname, Fachexperte (<Kürzel>), Amt 1 + 
-Vorname Nachname, Modellierer (<Kürzel>), Amt für Geoinformation
+| Beteiligte | Zlatko Mrnjec, Fachexperte (ZM), Amt für Umwelt und Energie + 
+Zlatko Mrnjec, Modellierer (ZM), Amt für Umwelt und Energie +
+Kuno Epper, Modellierer (Kep), Amt für Geoinformation
 |===
 
 *referenzierte Dokumente*
