@@ -254,15 +254,15 @@ m| WindgeschwindigkeitNacht
 | 11.5
 | öffentlich
 m| KaltlufvolumenstromNacht
-| mittlerer Kaltlufvolumenstrom um 04:00 Uhr morgens; Attribut "kvs" aus Original-Datenque
+| mittlerer Kaltlufvolumenstrom um 04:00 Uhr morgens; Attribut "kvs" aus Original-Datenquelle
 | 16.7
 | öffentlich
 m| KaltluftproduktionsrateNacht
-| mittlerer Kaltlufvolumenstrom um 04:00 Uhr morgens; Attribut "kpr" aus Original-Datenque
+| mittlerer Kaltlufvolumenstrom um 04:00 Uhr morgens; Attribut "kpr" aus Original-Datenquelle
 | 2.8
 | öffentlich
 m| PET
-| physiologische, equivalente Temperatur; Attribut "pet" aus Original-Datenque
+| physiologische, equivalente Temperatur; Attribut "pet" aus Original-Datenquelle
 | 2.8
 | öffentlich
 4+| *Beziehungsattribute*
