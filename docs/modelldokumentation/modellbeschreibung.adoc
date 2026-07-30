@@ -1,6 +1,16 @@
 == [todo] Modellbeschreibung
 
-<Beschreibung einfügen>
+<Das Thema ist von der zuständigen Stelle zu beschreiben. Nachfolgend ist ein Vorschlag der Abteilung GI angegeben.>
+
+Die Klimakarte umfasst drei Bereiche:
+
+* die Analysekarte,
+* die Bewertungskarte und
+* die Planungshinweiskarte.
+
+Die **Analysekarte** zeigt die Ist-Situation bezüglich der Temperatur zu zwei Zeitpunkten: 14 Uhr am Tag und 4 Uhr in der Nacht. Als Temperaturwert wird einerseits die Lufttemperatur wie auch die physiologisch äquivalenten Temperatur (engl. "physiological equivalent temperature", PET) angegeben. Letztere eigenet sich zur Bewertung des Wärmeempfindens, weshalb die PET unter anderem in der Stadt- und Regionalplanung berücksichtigt wird. Die Analysekarte ist ein Rasterdatensatz und über das ganze Kantonsgebiet sowie angrenzende Gebiete vorhanden. Die Werte betreffen die Aussentemperatur, weshalb Flächen, auf denen Gebäude stehen, keine Werte umfassen.
+
+Aufgrund der Analysekarte wurde die **Bewertungskarte** erstellt. 
 
 ifdef::backend-pdf[]
 <<<
