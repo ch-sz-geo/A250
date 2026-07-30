@@ -33,7 +33,7 @@ m| Bemerkung
 |===
 
 ==== Klasse `+Prozesstyp+`
-Die Klasse `+Prozesstyp+` führt die Werte des Katalogs "Prozesstyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+Die Klasse `+Prozesstyp+` führt die Werte des Katalogs "Prozesstyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "typ" der Original-Datenquelle.
 
 [cols=4*,options="header"]
 |===
@@ -47,7 +47,7 @@ m|Name
 |===
 
 ==== Klasse `+Aggregationsstufe+`
-Die Klasse `+Aggregationsstufe+` führt die Werte des Katalogs "Aggregationsstufe". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+Die Klasse `+Aggregationsstufe+` führt die Werte des Katalogs "Aggregationsstufe". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
 
 [cols=4*,options="header"]
 |===
@@ -60,8 +60,18 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-==== Klasse `+Flaechentyp+`
-Die Klasse `+Flaechentyp+` führt die Werte des Katalogs "Flaechentyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+==== Klasse `+Landnutzungsklasse+`
+Die Klasse `+Landnutzungsklasse+` führt die Werte des Katalogs "Landnutzungsklasse". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
+
+Das ganze Kantonsgebiet ist in Flächen aufgeteilt, welche im Endeffekt einer der folgenden Klassen entspricht:
+
+* Siedlung
+* Verkehr
+* Grünfläche
+* Restfläche
+todo: Link auf Kapitel "Allgemeines"
+
+Diese Flächen bilden die Basis für die klimatologischen Analysen.
 
 [cols=4*,options="header"]
 |===
@@ -74,8 +84,10 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-==== Klasse `+NutzungsklasseWirkungsraum+`
-Die Klasse `+NutzungsklasseWirkungsraum+` führt die Werte des Katalogs "Nutzungsklasse des Wirkungsraums". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+==== Klasse `+Wirkungstyp+`
+Die Klasse `+Wirkungstyp+` führt die Werte des Katalogs "Wirkungstyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
+
+Im Zuge der Klimaanalyse wird jede Fläche der Landnutzungstypen "Siedlung", "Verkehr" und "Grünfläche" bewertet. Die Werte dieser Bewertung sind für alle drei Landnutzungen gleich und im Katalog "Wirkungstyp" zusammengefasst.
 
 [cols=4*,options="header"]
 |===
@@ -88,8 +100,10 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-==== Klasse `+NutzungsklasseAusgleichsraum+`
-Die Klasse `+NutzungsklasseAusgleichsraum+` führt die Werte des Katalogs "Nutzungsklasse des Ausgleichsraums". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+==== Klasse `+Aufenthaltsqualitaet+`
+Die Klasse `+Aufenthaltsqualitaet+` führt die Werte des Katalogs "Aufenthaltsqualitaet". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_artag" der Original-Datenquelle.
+
+Bei hohen Tagestemperaturen kann der Aufenthalt im Wald oder auf Wiesen als angenehm empfunden werden. Die Höhe dieses Effektes über den Wert "Aufenthaltsqualitaet" ausgewiesen und für jede Fläche des Landnutzungstyps "Grünfläche" im Rahmen der Klimaanalyse berechnet.
 
 [cols=4*,options="header"]
 |===
@@ -102,8 +116,26 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-==== Klasse `+NutzungsklasseReferenzraum+`
-Die Klasse `+NutzungsklasseReferenzraum+` führt die Werte des Katalogs "Nutzungsklasse des Referenzraums". Sie ist eine Spezialisierung der Klasse Katalogeintrag.
+==== Klasse `+Kuehlpotential+`
+Die Klasse `+Kuehlpotential+` führt die Werte des Katalogs "Kuehlpotential". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_arn8" der Original-Datenquelle.
+
+In der Nacht können Grünflächen eine Minderung der Hitze zur Folge haben. Wie hoch dieses Kühlpotential liegt, wird im Rahmen der Klimaanalyse berechnet und über den Wert "Kuehlpotential" ausgewiesen. 
+
+[cols=4*,options="header"]
+|===
+| Name | Beschreibung | Beispiel | Freigabe
+4+| _Diese Klasse führt keine zusätzlichen Attribute_
+4+| *Anforderungen*
+m|Code
+3+| Die Werte müssen eindeutig sein
+m|Name
+3+| Die Werte müssen eindeutig sein
+|===
+
+==== Klasse `+Schutzbedarf+`
+Die Klasse `+Schutzbedarf+` führt die Werte des Katalogs "Schutzbedarf". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "phk_ar" der Original-Datenquelle.
+
+Grünflächen weisen eine ausgleichende Wirkung auf hohe Temperaturen auf. Je höher dieser Effekt, desto eher sollte ihr Bestand bei zukünftigen Vorhaben gesichert werden. Im Rahmen der Klimaanalyse wurde daher für jede Grünfläche ihr Schutzbedarf ermittelt. 
 
 [cols=4*,options="header"]
 |===
