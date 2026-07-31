@@ -116,10 +116,10 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-==== Klasse `+Kuehlpotential+`
-Die Klasse `+Kuehlpotential+` führt die Werte des Katalogs "Kuehlpotential". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_arn8" der Original-Datenquelle.
+==== Klasse `+Kuehlungspotential+`
+Die Klasse `+Kuehlungspotential+` führt die Werte des Katalogs "Kuehlungspotential". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_arn8" der Original-Datenquelle.
 
-In der Nacht können Grünflächen eine Minderung der Hitze zur Folge haben. Wie hoch dieses Kühlpotential liegt, wird im Rahmen der Klimaanalyse berechnet und über den Wert "Kuehlpotential" ausgewiesen. 
+In der Nacht können Grünflächen eine Minderung der Hitze zur Folge haben. Wie hoch dieses Kühlpotential liegt, wird im Rahmen der Klimaanalyse berechnet und über den Wert "Kuehlungspotential" ausgewiesen. 
 
 [cols=4*,options="header"]
 |===
@@ -357,7 +357,7 @@ m| rAufenthaltsqualitaet
 | Fremdschlüssel zum Katalog, welcher mit dem Objekt verknüpft ist.
 | ccee2bad-419e-454e-9e0f-9ef2ae2d4d44
 | öffentlich
-m| rKuehlpotential
+m| rKuehlungspotential
 | Fremdschlüssel zum Katalog, welcher mit dem Objekt verknüpft ist.
 | ccee2bad-419e-454e-9e0f-9ef2ae2d4d44
 | öffentlich
