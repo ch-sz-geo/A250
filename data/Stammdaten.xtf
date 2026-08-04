@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ili:transfer
   xmlns="http://www.interlis.ch/xtf/2.4/SZ_Klimaanalyse_V1"
   xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS"
@@ -25,13 +25,14 @@
       <Kuehlungspotential ili:tid="c0a6ba56-af44-45ff-96cd-e82e9f78220b"><Name>erhöht</Name><Code>erhoeht</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
       <Kuehlungspotential ili:tid="4185f951-eca7-4b1a-9805-365fe0e080dc"><Name>hoch</Name><Code>hoch</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
       <Kuehlungspotential ili:tid="95a52db4-9ab6-47c9-b1ed-7c289a1a9ba3"><Name>sehr hoch</Name><Code>sehr_hoch</Code><SortierNr>4</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
-      <Landnutzungsklasse ili:tid="8aca6f32-2703-487f-ac62-2c5b9138fae5"><Name>bewohnter Siedlungsraum</Name><Code>Siedlungsraum_bewohnt</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="9b55f60d-6e9f-4d6e-a0b6-e5d33d67818f"><Name>unbewohnter Siedlungsraum</Name><Code>Siedlungsraum_unbewohnt</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="8ce50e22-b01e-4efd-b748-6ceb83ae8975"><Name>Verkehtsfläche/Platz</Name><Code>Verkehrsflaeche_Platz</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="47548348-338b-4115-9de4-c4b3a64ad832"><Name>Bahngleise</Name><Code>Bahngleise</Code><SortierNr>4</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="ae5d6a18-52e8-41ee-a998-f580187565bc"><Name>Gewässer</Name><Code>Gewaesser</Code><SortierNr>5</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="2b319f69-e64f-466c-9935-c9366dd29f80"><Name>Grünfläche</Name><Code>Gruenflaeche</Code><SortierNr>6</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
-      <Landnutzungsklasse ili:tid="def6527c-fd8e-45b3-9090-7bd8fee7d74e"><Name>Wald/Gehölz</Name><Code>Wald_Gehoelz</Code><SortierNr>7</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="8aca6f32-2703-487f-ac62-2c5b9138fae5"><Name>bewohnter Siedlungsraum</Name><Code>Siedlungsraum_bewohnt</Code><SortierNr>10</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="9b55f60d-6e9f-4d6e-a0b6-e5d33d67818f"><Name>unbewohnter Siedlungsraum</Name><Code>Siedlungsraum_unbewohnt</Code><SortierNr>20</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="8ce50e22-b01e-4efd-b748-6ceb83ae8975"><Name>Verkehtsfläche/Platz</Name><Code>Verkehrsflaeche_Platz</Code><SortierNr>30</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="47548348-338b-4115-9de4-c4b3a64ad832"><Name>Bahngleise</Name><Code>Bahngleise</Code><SortierNr>40</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="ae5d6a18-52e8-41ee-a998-f580187565bc"><Name>Standgewässer</Name><Code>Standgewaesser</Code><SortierNr>50</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="d313277b-2fab-4df3-9fe2-9808cd93e619"><Name>Fliessgewässer</Name><Code>Fliessgewaesser</Code><SortierNr>55</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="2b319f69-e64f-466c-9935-c9366dd29f80"><Name>Grünfläche</Name><Code>Gruenflaeche</Code><SortierNr>60</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
+      <Landnutzungsklasse ili:tid="def6527c-fd8e-45b3-9090-7bd8fee7d74e"><Name>Wald/Gehölz</Name><Code>Wald_Gehoelz</Code><SortierNr>70</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
       <Prozesstyp ili:tid="2781b0ff-5623-4eed-a673-1dcfef68da2e"><Name>Kaltluftabfluss</Name><Code>Kaltluftabfluss</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Prozesstyp>
       <Prozesstyp ili:tid="63eac112-d05d-4135-9458-816df9b6f9f2"><Name>Kaltluftleitbahn</Name><Code>Kaltluftleitbahn</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Prozesstyp>
       <Schutzbedarf ili:tid="0021e28e-a99b-4950-a65f-c14487549d93"><Name>normal</Name><Code>normal</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Schutzbedarf>
