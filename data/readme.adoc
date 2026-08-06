@@ -11,6 +11,11 @@ Bei der Bewirtschaftung eines Themas gibt es Attribute, deren Werte nicht frei e
 | SZ_Klimaanalyse_V1 +
 (2026-06-02)
 | 2026-07-31
-| Diese Datei enthält die aktuell gültigen Stammdaten für die Datenerfassung.
+| Diese Datei enthält die erste Version der Stammdaten. Darin sind die Einträge des Katalogs "Kuehlungspotential" falsch.
 | https://raw.githubusercontent.com/ch-sz-geo/A250/91b969be79ea5f5913795688dca6ede0abc84866/data/Stammdaten.xtf[*Datei*]
+| SZ_Klimaanalyse_V1 +
+(2026-06-02)
+| 2026-08-06
+| Diese Datei enthält die aktuell gültigen Stammdaten für die Datenerfassung.
+| https://raw.githubusercontent.com/ch-sz-geo/A250/a0e61ab221c7ff31b5ccc046298d2d601597b0ad/data/Stammdaten.xtf[*Datei*]
 |===
