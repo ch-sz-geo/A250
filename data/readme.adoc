@@ -17,5 +17,5 @@ Bei der Bewirtschaftung eines Themas gibt es Attribute, deren Werte nicht frei e
 (2026-06-02)
 | 2026-08-06
 | Diese Datei enthält die aktuell gültigen Stammdaten für die Datenerfassung.
-| https://raw.githubusercontent.com/ch-sz-geo/A250/a0e61ab221c7ff31b5ccc046298d2d601597b0ad/data/Stammdaten.xtf[*Datei*]
+| https://raw.githubusercontent.com/ch-sz-geo/A250/bc6b10d8e38e84f503d53f17a49e9602f10df128/data/Stammdaten.xtf[*Datei*]
 |===
