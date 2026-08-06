@@ -21,10 +21,10 @@
       <Aufenthaltsqualitaet ili:tid="83458973-d3d6-4985-bbb7-07229ef7cf2d"><Name>mässig</Name><Code>maessig</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Aufenthaltsqualitaet>
       <Aufenthaltsqualitaet ili:tid="1b19c3b7-3d1d-4fbb-95cd-9b6c6d2e5982"><Name>gering</Name><Code>gering</Code><SortierNr>4</SortierNr><Bemerkung></Bemerkung></Aufenthaltsqualitaet>
       <Aufenthaltsqualitaet ili:tid="d69c3005-8514-45a3-83a2-7b0d760db935"><Name>sehr gering</Name><Code>sehr_gering</Code><SortierNr>5</SortierNr><Bemerkung></Bemerkung></Aufenthaltsqualitaet>
-      <Kuehlungspotential ili:tid="3f4453b4-72ce-41e5-9f99-b5bab821350f"><Name>gering</Name><Code>gering</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
-      <Kuehlungspotential ili:tid="c0a6ba56-af44-45ff-96cd-e82e9f78220b"><Name>erhöht</Name><Code>erhoeht</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
-      <Kuehlungspotential ili:tid="4185f951-eca7-4b1a-9805-365fe0e080dc"><Name>hoch</Name><Code>hoch</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
-      <Kuehlungspotential ili:tid="95a52db4-9ab6-47c9-b1ed-7c289a1a9ba3"><Name>sehr hoch</Name><Code>sehr_hoch</Code><SortierNr>4</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
+      <Kuehlungspotential ili:tid="3f4453b4-72ce-41e5-9f99-b5bab821350f"><Name>sehr hoch</Name><Code>sehr_hoch</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
+      <Kuehlungspotential ili:tid="c0a6ba56-af44-45ff-96cd-e82e9f78220b"><Name>hoch</Name><Code>hoch</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
+      <Kuehlungspotential ili:tid="4185f951-eca7-4b1a-9805-365fe0e080dc"><Name>erhöht</Name><Code>erhoeht</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
+      <Kuehlungspotential ili:tid="95a52db4-9ab6-47c9-b1ed-7c289a1a9ba3"><Name>gering</Name><Code>gering</Code><SortierNr>4</SortierNr><Bemerkung></Bemerkung></Kuehlungspotential>
       <Landnutzungsklasse ili:tid="8aca6f32-2703-487f-ac62-2c5b9138fae5"><Name>bewohnter Siedlungsraum</Name><Code>Siedlungsraum_bewohnt</Code><SortierNr>10</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
       <Landnutzungsklasse ili:tid="9b55f60d-6e9f-4d6e-a0b6-e5d33d67818f"><Name>unbewohnter Siedlungsraum</Name><Code>Siedlungsraum_unbewohnt</Code><SortierNr>20</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
       <Landnutzungsklasse ili:tid="8ce50e22-b01e-4efd-b748-6ceb83ae8975"><Name>Verkehtsfläche/Platz</Name><Code>Verkehrsflaeche_Platz</Code><SortierNr>30</SortierNr><Bemerkung></Bemerkung></Landnutzungsklasse>
