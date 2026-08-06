@@ -12,7 +12,7 @@
     <ili:sender>AGI SZ</ili:sender>
   </ili:headersection>
   <ili:datasection>
-    <Stammdaten ili:bid="ch.sz.a250.stammdaten.2026-06-02">
+    <Stammdaten ili:bid="ch.sz.a250.stammdaten.2026-08-06">
       <Aggregationsstufe ili:tid="3254ab8b-764a-4a5b-800d-094428f84e9b"><Name>100 m</Name><Code>Stufe_100</Code><SortierNr>1</SortierNr><Bemerkung></Bemerkung></Aggregationsstufe>
       <Aggregationsstufe ili:tid="2028becf-89a4-4d93-a9ec-4c46f9846d7d"><Name>300 m</Name><Code>Stufe_300</Code><SortierNr>2</SortierNr><Bemerkung></Bemerkung></Aggregationsstufe>
       <Aggregationsstufe ili:tid="9ebb4620-519c-42f9-bb5c-b20e941ecbc3"><Name>500 m</Name><Code>Stufe_500</Code><SortierNr>3</SortierNr><Bemerkung></Bemerkung></Aggregationsstufe>
