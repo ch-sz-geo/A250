@@ -6,11 +6,11 @@ Dieses Dokument beschreibt den Geobasisdatensatz
 
 Das Thema umfasst drei Bereiche:
 
-* die Klimaanalysekarte,
-* die Klimabewertungskarte und
+* die Klimaanalyse,
+* die Bewertungskarten Tag und Nacht sowie
 * die Planungshinweiskarte.
 
-Die Klimaanalysekarte sind im Rasterformat. Die Daten zur Klimabewertungs- und Planungshinweiskarte liegen im Verktorformat vor und sind in INTERLIS modelliert. Dieses Datenmodell ist in der vorliegenden Dokumentation beschrieben.
+Die Klimaanalysekarte ist im Rasterformat. Die Daten zur Bewertungs- und Planungshinweiskarte liegen im Vektorformat vor und sind in INTERLIS modelliert. Dieses Datenmodell ist in der vorliegenden Dokumentation beschrieben.
 
 === rechtliche Grundlagen
 Seit dem 1. Juli 2008 ist das Bundesgesetz über Geoinformation (GeoIG, SR 510.62) <<allgemeines.adoc#doc-01,[1]>> in Kraft. Am 1. Juli 2012 erfolgte die vollständige Inkraftsetzung des kantonalen Geoinformationsgesetzes (kGeoiG, SRSZ 214.110) <<allgemeines.adoc#doc-03,[3]>>. Es hat zum Ziel, verbindliche Vorgaben für die Erfassung, Modellierung und den Austausch von Geodaten festzulegen.
