@@ -33,7 +33,7 @@ m| Bemerkung
 |===
 
 ==== Klasse `+Prozesstyp+`
-Die Klasse `+Prozesstyp+` führt die Werte des Katalogs "Prozesstyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "typ" der Original-Datenquelle.
+Die Klasse `+Prozesstyp+` führt die Werte des Katalogs "Prozesstyp". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute. Die Datenquelle ist "typ" der Original-Datenquelle.
 
 [cols=4*,options="header"]
 |===
@@ -47,7 +47,7 @@ m|Name
 |===
 
 ==== Klasse `+Aggregationsstufe+`
-Die Klasse `+Aggregationsstufe+` führt die Werte des Katalogs "Aggregationsstufe". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
+Die Klasse `+Aggregationsstufe+` führt die Werte des Katalogs "Aggregationsstufe". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute.
 
 [cols=4*,options="header"]
 |===
@@ -61,17 +61,16 @@ m|Name
 |===
 
 ==== Klasse `+Landnutzungsklasse+`
-Die Klasse `+Landnutzungsklasse+` führt die Werte des Katalogs "Landnutzungsklasse". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
+Die Klasse `+Landnutzungsklasse+` führt die Werte des Katalogs "Landnutzungsklasse". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute.
 
-Das ganze Kantonsgebiet ist in Flächen aufgeteilt, welche im Endeffekt einer der folgenden Klassen entspricht:
+Das ganze Kantonsgebiet ist in Flächen aufgeteilt, welche einer der folgenden Klassen entspricht:
 
 * Siedlung
 * Verkehr
 * Grünfläche
 * Restfläche
-todo: Link auf Kapitel "Allgemeines"
 
-Diese Flächen bilden die Basis für die klimatologischen Analysen.
+Diese Flächen bilden die Basis für die Bewertungskarten sowie die Planungshinweiskarte.
 
 [cols=4*,options="header"]
 |===
@@ -85,7 +84,7 @@ m|Name
 |===
 
 ==== Klasse `+Wirkungstyp+`
-Die Klasse `+Wirkungstyp+` führt die Werte des Katalogs "Wirkungstyp". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute.
+Die Klasse `+Wirkungstyp+` führt die Werte des Katalogs "Wirkungstyp". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute.
 
 Im Zuge der Klimaanalyse wird jede Fläche der Landnutzungstypen "Siedlung", "Verkehr" und "Grünfläche" bewertet. Die Werte dieser Bewertung sind für alle drei Landnutzungen gleich und im Katalog "Wirkungstyp" zusammengefasst.
 
@@ -101,9 +100,9 @@ m|Name
 |===
 
 ==== Klasse `+Aufenthaltsqualitaet+`
-Die Klasse `+Aufenthaltsqualitaet+` führt die Werte des Katalogs "Aufenthaltsqualitaet". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_artag" der Original-Datenquelle.
+Die Klasse `+Aufenthaltsqualitaet+` führt die Werte des Katalogs "Aufenthaltsqualitaet". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute. Die Datenquelle ist "bw_artag" der Original-Datenquelle.
 
-Bei hohen Tagestemperaturen kann der Aufenthalt im Wald oder auf Wiesen als angenehm empfunden werden. Die Höhe dieses Effektes über den Wert "Aufenthaltsqualitaet" ausgewiesen und für jede Fläche des Landnutzungstyps "Grünfläche" im Rahmen der Klimaanalyse berechnet.
+Bei hohen Tagestemperaturen kann der Aufenthalt im Wald oder auf Wiesen als angenehm empfunden werden. Die Höhe dieses Effektes wird über den Wert "Aufenthaltsqualitaet" ausgewiesen und für jede Fläche des Landnutzungstyps "Grünfläche" aus den Klimaanalysekarten berechnet.
 
 [cols=4*,options="header"]
 |===
@@ -117,9 +116,9 @@ m|Name
 |===
 
 ==== Klasse `+Kuehlungspotential+`
-Die Klasse `+Kuehlungspotential+` führt die Werte des Katalogs "Kuehlungspotential". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "bw_arn8" der Original-Datenquelle.
+Die Klasse `+Kuehlungspotential+` führt die Werte des Katalogs "Kuehlungspotential". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute. Die Datenquelle ist "bw_arn8" der Original-Datenquelle.
 
-In der Nacht können Grünflächen eine Minderung der Hitze zur Folge haben. Wie hoch dieses Kühlpotential liegt, wird im Rahmen der Klimaanalyse berechnet und über den Wert "Kuehlungspotential" ausgewiesen. 
+In der Nacht mindern Grünflächen die Hitze. Wie hoch dieses Kühlpotential liegt, wird aus den Klimaanalysekarten berechnet und über den Wert "Kuehlungspotential" ausgewiesen. 
 
 [cols=4*,options="header"]
 |===
@@ -133,9 +132,9 @@ m|Name
 |===
 
 ==== Klasse `+Schutzbedarf+`
-Die Klasse `+Schutzbedarf+` führt die Werte des Katalogs "Schutzbedarf". Sie ist eine Spezialisierung der Klasse Katalogeintrag und führt keine weiteren Attribute. Die Datenquelle ist "phk_ar" der Original-Datenquelle.
+Die Klasse `+Schutzbedarf+` führt die Werte des Katalogs "Schutzbedarf". Sie ist eine Spezialisierung der Klasse `+Katalogeintrag+` und führt keine weiteren Attribute. Die Datenquelle ist "phk_ar" der Original-Datenquelle.
 
-Grünflächen weisen eine ausgleichende Wirkung auf hohe Temperaturen auf. Je höher dieser Effekt, desto eher sollte ihr Bestand bei zukünftigen Vorhaben gesichert werden. Im Rahmen der Klimaanalyse wurde daher für jede Grünfläche ihr Schutzbedarf ermittelt. 
+Grünflächen weisen eine ausgleichende Wirkung auf hohe Temperaturen auf. Je höher dieser Effekt ist, desto eher sollte der Bestand der Grünfläche bei zukünftigen Vorhaben gesichert werden. Dieser Schutzbedarf ist in der Planungshinweiskarte für jede Grünfläche ausgewiesen.
 
 [cols=4*,options="header"]
 |===
@@ -152,7 +151,7 @@ m|Name
 Das Topic `+Fachdaten+` umfasst die eigentlichen, fachlichen Klassen des Themas.
 
 ==== Klasse `+Kaltluftprozess+`
-Die Klasse `+Kaltluftprozess+` führt die Informationen zum Kaltluftporzess.
+Die Klasse `+Kaltluftprozess+` führt die Informationen zum Kaltluftprozess.
 
 [cols=4*,options="header"]
 |===
@@ -252,7 +251,7 @@ m| Geometrie
 |===
 
 ==== Klasse `+Basisgeometrie+`
-Die Klasse `+Basisgeometrie+` führt alle relevanten Mittelwerte der in der Klimaanalyse modellierten Paramterer. Die Berechnung erfogt aus den Rasterdaten. Die Klasse ist abstrakt und führt selber keine Objekte.
+Die Klasse `+Basisgeometrie+` führt alle relevanten Mittelwerte der in der Klimaanalyse modellierten Parameter. Die Berechnung erfolgt aus den Rasterdaten. Die Klasse ist abstrakt und führt selbst keine Objekte.
 
 [cols=4*,options="header"]
 |===
