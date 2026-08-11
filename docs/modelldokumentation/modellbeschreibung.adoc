@@ -1,16 +1,15 @@
-== [todo] Modellbeschreibung
+== Modellbeschreibung
 
-<Das Thema ist von der zuständigen Stelle zu beschreiben. Nachfolgend ist ein Vorschlag der Abteilung GI angegeben.>
+Das Thema "Klimakarte" umfasst drei Bereiche:
 
-Die Klimakarte umfasst drei Bereiche:
+•	die Klimaanalyse,
+•	die Bewertungskarten Tag und Nacht sowie
+•	die Planungshinweiskarte.
 
-* die Analysekarte,
-* die Bewertungskarte und
-* die Planungshinweiskarte.
+Die *Klimaanalyse* zeigt die Ist-Situation mehrerer Klimaparameter zu zwei Tageszeiten: 14 Uhr am Tag und 4 Uhr in der Nacht. Für die Tagessituation werden Lufttemperatur und die physiologisch äquivalenten Temperatur (engl. "physiological equivalent temperature", PET) angegeben. Letztere eignet sich zur Bewertung des Wärmeempfindens, weshalb die PET unter anderem in der Stadt- und Regionalplanung berücksichtigt wird. In der Nachtsituation werden zur Temperatur die Windgeschwindigkeit, die Kaltluftvolumenstromdichte und die Kaltluftproduktionsrate aufgeführt. Die Klimaanalysekarte ist ein Rasterdatensatz und erstreckt sich über das ganze Kantonsgebiet sowie über Teile angrenzender Kantone. Die Werte betreffen den Aussenraum, weshalb Flächen, auf denen Gebäude stehen, keine Werte enthalten.
 
-Die **Analysekarte** zeigt die Ist-Situation bezüglich der Temperatur zu zwei Zeitpunkten: 14 Uhr am Tag und 4 Uhr in der Nacht. Als Temperaturwert wird einerseits die Lufttemperatur wie auch die physiologisch äquivalenten Temperatur (engl. "physiological equivalent temperature", PET) angegeben. Letztere eigenet sich zur Bewertung des Wärmeempfindens, weshalb die PET unter anderem in der Stadt- und Regionalplanung berücksichtigt wird. Die Analysekarte ist ein Rasterdatensatz und erstreckt sich über das ganze Kantonsgebiet sowie über Teile angrenzender Kantone. Die Werte betreffen die Aussentemperatur, weshalb Flächen, auf denen Gebäude stehen, keine Werte enthalten.
+Bei der *Bewertungs- und der Planungshinweiskarte* ist das ganze Kantonsgebiet in Flächen gleicher Nutzung unterteilt und liegt als Vektordatensatz vor. Die nachfolgende Tabelle gibt einen Überblick über die relevanten Nutzungstypen (Spalte 1 und 2), die Zuordnung zu ihrer Gruppe (Spalte 3), die Kriterien, welche für die Situation am Tag (Spalte 4) und in der Nacht (Spalte 5) betrachtet werden sowie die Zuordnung zu ihren Klassen gemäss Datenmodell (Spalte 6):
 
-Bei der Bewertungs- und der Planungshinweiskarte ist das ganze Kanontsgebiet in Flächen gleicher Nutzung unterteilt und liegt als Vektordatensatz vor. Die nachfolgende Tabelle gibt einen Überblick über die relevanten Nutzungstypen (Spalte 1 und 2), die Zuordnung zu ihrer Gruppe (Spalte 3), die Kriterien, welche für die Situation am Tag (Spalte 4) und in der Nacht (Spalte 5) betrachtet werden sowie die Zuordnung zu ihren Klassen gemäss Datenmodell (Spalte 6):
 
 [options="header"]
 |===
@@ -20,50 +19,50 @@ Bei der Bewertungs- und der Planungshinweiskarte ist das ganze Kanontsgebiet in 
 | Siedlungsfläche
 | Wärmebelastung
 | Überwärmung
-| Wirkungsraum
+m| Wirkungsraum
 | 2
 | unbewohnter Siedlungsraum
 | Siedlungsfläche
 | Wärmebelastung
 | Überwärmung
-| Wirkungsraum
+m| Wirkungsraum
 | 3
 | Verkehrsflächen und Plätze
 | Verkehrsfläche
 | Wärmebelastung
 | Überwärmung
-| Wirkungsraum
+m| Wirkungsraum
 | 4
 | Bahngleise
 | - - -
 | - - -
 | - - -
-| Restfläche
+m| Restfläche
 | 5
 | Gewässer
 | - - -
 | - - -
 | - - -
-| Restfläche
+m| Restfläche
 | 6
-| Gründflächen
-| Gründflächen
+| Grünflächen
+| Grünflächen
 | Aufenthaltsqualität
 | Kühlpotential
-| Ausgleichsraum
+m| Ausgleichsraum
 | 7
 | Wald und Gehölz
-| Gründflächen
+| Grünflächen
 | Aufenthaltsqualität
 | Kühlpotential
-| Ausgleichsraum
+m| Ausgleichsraum
 |===
 
-In den Gebieten der Nutzungstypen 1 bis 3 hält dich der Mensch mehrheitlich auf. Sie bilden jenen Raum, auf den die klimatischen Bedingungen auf den Menschen wirken (Wirkungsraum). Die Gebieten der Nutzungstypen 6 und 7 haben einen ausgleichenden Effekt (Ausgleichsraum). Unbewertet bleiben die Gebiete der Nutzungstypen 4 und 5. Sie zählen zur Restfläche.
+Die Gebiete der Nutzungstypen 1 bis 3 sind die primären Aufenthaltsräume des Menschen. Sie bilden jenen Raum, auf den die klimatischen Bedingungen auf den Menschen wirken (Wirkungsraum). Die Gebiete der Nutzungstypen 6 und 7 haben meist einen ausgleichenden, kühlenden Effekt (Ausgleichsraum). Unbewertet bleiben die Gebiete der Nutzungstypen 4 und 5. Sie zählen zur Restfläche.
 
-Die **Bewertungskarte** zeigt auf, wie hoch die Wärmebelastung im Wirkraum ist und welches Potential vom Ausgleichsraum ausgeht. Die Beurteilungen beziehen sich wiederum auf 14:00 Uhr am Tag bzw. 4 Uhr in der Nacht.
+Die *Bewertungskarte* zeigt auf, wie hoch die Wärmebelastung im Wirkraum ist und welche Aufenthaltsqualität der Ausgleichsraum  am Tag bietet. In der Nachtsituation wird derweil die Überwärmung des Wirkraums wie auch die Bedeutung des Ausgleichsraums für die Hitzeminderung aufgezeigt.
 
-Die **Planungshinweiskarte** richtet die Betrachtung in die Zukunft und weist auf, wie hoch der Handlungsbedarf bei den Wirkräumen bzw. der Schutzbedarf bei den Ausgleichsflächen ist.
+Die *Planungshinweiskarte* kombiniert die Erkenntnisse der beiden Bewertungskarten und setzt diese in Wert, indem sie angibt, wie hoch der Handlungsbedarf bei den Wirkräumen bzw. der Schutzbedarf bei den Ausgleichsflächen ist.
 
 ifdef::backend-pdf[]
 <<<
